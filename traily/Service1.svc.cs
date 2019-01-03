@@ -17,6 +17,8 @@ namespace traily
             return string.Format("You entered: {0}", value);
         }
 
+
+        // My first ever webapp service
         public CompositeType GetDataUsingDataContract(CompositeType composite)
         {
             if (composite == null)
